@@ -1,7 +1,7 @@
 import styles from "./HeroStyle.module.css";
 import heroImg from "../../assets/hero-img.png";
 import themeIcon from "../../assets/sun.svg";
-import twitterIcon from "../../assets/twitter-light.svg";
+import instagramIcon from "../../assets/instagram-light.svg";
 import githubIcon from "../../assets/github-light.svg";
 import linkedinIcon from "../../assets/linkedin-light.svg";
 import CV from "../../assets/cv.pdf";
@@ -30,7 +30,7 @@ function Hero() {
         <h2>Fullstack Developer</h2>
         <span>
           <a href="https://instagram.com/wilson_ide" target="_blank">
-            <img src={twitterIcon} alt="Instagram Icon" />
+            <img src={instagramIcon} alt="Instagram Icon" />
           </a>
           <a href="https://github.com/Wilsdawg1212" target="_blank">
             <img src={githubIcon} alt="Github Icon" />
