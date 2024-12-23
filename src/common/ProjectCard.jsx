@@ -1,11 +1,11 @@
 import React from "react";
 
-function ProjectCard() {
+function ProjectCard({ src, link, h3, p }) {
   return (
-    <a href="https://wrappify.wilsonide.com/" target="_blank">
-      <img className="hover" src={wrappify} alt="Wrappify logo" />
-      <h3>Wrappify</h3>
-      <p>Custom Spotify Wraps site</p>
+    <a href={link} target="_blank">
+      <img className="hover" src={src} alt={`${h3} logo`} />
+      <h3>{h3}</h3>
+      <p>{p}</p>
     </a>
   );
 }
