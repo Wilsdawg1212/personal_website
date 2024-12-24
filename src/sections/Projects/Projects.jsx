@@ -13,19 +13,19 @@ function Projects() {
           src={wrappify}
           link="https://wrappify.wilsonide.com/"
           h3="Wrappify"
-          p="Custom Spotify Wraps site"
+          p="Custom Spotify Wraps"
         />
         <ProjectCard
           src={dogReader}
           link="https://huggingface.co/WillyIde545/dog_classifier"
           h3="Dog Reader"
-          p="AI model to tell dog breed"
+          p="Dog Breed Classifier"
         />
         <ProjectCard
           src={aFF}
           link="https://github.com/Connor5190/CS2340-Project-1"
-          h3="Atlanta Food Finder"
-          p="App to find best food in Atlanta"
+          h3="ATL Food Finder"
+          p="Find ATL restaurants"
         />
       </div>
     </section>
