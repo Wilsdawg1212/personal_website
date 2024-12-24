@@ -56,7 +56,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Dedicated to exploring the world of computer science and intelligence.
+          Making computers smarter and media sharper.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
