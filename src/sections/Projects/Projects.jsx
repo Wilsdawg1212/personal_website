@@ -1,8 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
 import wrappify from "../../assets/viberr.png";
-import dogReader from "../../assets/fresh-burger.png";
-import aFF from "../../assets/hipsster.png";
+import dogReader from "../../assets/dog-reader.png";
+import aFF from "../../assets/atl-food.jpg";
 
 function Projects() {
   return (
