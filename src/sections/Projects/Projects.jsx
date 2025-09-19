@@ -3,6 +3,8 @@ import ProjectCard from "../../common/ProjectCard";
 import wrappify from "../../assets/viberr.png";
 import dogReader from "../../assets/dog-reader.png";
 import aFF from "../../assets/atl-food.jpg";
+import blockviz from "../../assets/blockchainviz.jpg"
+import bviz from "../../assets/bviz2.png"
 
 function Projects() {
   return (
@@ -26,6 +28,12 @@ function Projects() {
           link="https://github.com/Connor5190/CS2340-Project-1"
           h3="ATL Food Finder"
           p="Find ATL restaurants"
+        />
+        <ProjectCard 
+        src={bviz}
+        link="https://blockchain-visualizer.wilsonide.com/"
+        h3="Blockchain Visualizer"
+        p="See live Base blocks"
         />
       </div>
     </section>
