@@ -1,5 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
-import ProjectCard from "../../common/ProjectCard";
+import ProjectCard from "../../common/ProjectCard/ProjectCard";
 import wrappify from "../../assets/viberr.png";
 import dogReader from "../../assets/dog-reader.png";
 import aFF from "../../assets/atl-food.jpg";
@@ -32,7 +32,7 @@ function Projects() {
         <ProjectCard 
         src={bviz}
         link="https://blockchain-visualizer.wilsonide.com/"
-        h3="Blockchain Visualizer"
+        h3="Blockchain Viz"
         p="See live Base blocks"
         />
       </div>
