@@ -5,6 +5,7 @@ import dogReader from "../../assets/dog-reader.png";
 import aFF from "../../assets/atl-food.jpg";
 import blockviz from "../../assets/blockchainviz.jpg"
 import bviz from "../../assets/bviz2.png"
+import interiorDesign from "../../assets/interior.jpeg"
 
 function Projects() {
   return (
@@ -34,6 +35,12 @@ function Projects() {
         link="https://blockchain-visualizer.wilsonide.com/"
         h3="Blockchain Viz"
         p="See live Base blocks"
+        />
+        <ProjectCard
+          src={interiorDesign}
+          link="https://github.com/Wilsdawg1212/interior-design"
+          h3="Interior Design Studio"
+          p="Create blended vison boards"
         />
       </div>
     </section>
